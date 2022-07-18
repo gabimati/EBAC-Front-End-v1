@@ -1,11 +1,11 @@
 # Ebac | Front-End
 ## Exercício 11: Inbound Marketing
 
-## Objetivos
+### Objetivos
 - Construir um experiência completa para atrair leads para um negócio
 - Projeto digno de portfólio
 
-## Requisitos
+### Requisitos
 - Codificação HTML e CSS
 - Princípios de design
 - HTML semântico
@@ -14,7 +14,7 @@
 - Visual Studio Code
 - Git 
 
-## Briefing
+### Briefing
 - Criar uma campanha de inbound marketing para divulgar seus serviços de criação de sites, landing pages e e-mail marketing
 - Gerar leads qualificados, com real interesse nos serviços oferecidos
 - Criar conteúdo para post (blog), e-mail marketing, landing page (call-to-action: e-mail*)
