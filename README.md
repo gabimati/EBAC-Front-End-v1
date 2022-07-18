@@ -15,7 +15,7 @@
  ### Criar conta no GitHub
 
  ### Clonar o projeto
- git clone https://github.com/cavalcantemmarcelo/curso-frontend.git
+ git clone https://github.com/gabimati/EBAC-Front-End.git
 
  ### Commits
  Informação de alteração
