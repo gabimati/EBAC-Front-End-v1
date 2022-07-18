@@ -1,7 +1,7 @@
 # Curso Front-end
 #### EBAC
 
-## GIT
+## Módulo 10 - GIT
 ### Conceitos de versionamento
  - Histórico
  - Controle de versão
@@ -26,7 +26,6 @@
  > git pull (puxar / trazer alterações do GitHub para sua máquina)
 
 ### GitFlow
-Fluxo do Git
 
 #### Branchs
 são ramificações / versões paralelas
