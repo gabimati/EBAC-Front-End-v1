@@ -213,12 +213,11 @@ dd {
     color: #fff;
     font-size: 1.8rem;
     text-transform: uppercase;
-    padding: 10px 15px;
+    padding: 10px 20px;
     width: auto;
     float: left;
     text-decoration: none;
     font-weight: 300;
-    float: right;
 }
 
 #saiba-mais {
