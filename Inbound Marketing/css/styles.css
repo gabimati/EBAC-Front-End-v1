@@ -52,7 +52,7 @@ h3 {
     font-size: 1.8rem;
     color: #78579f;
     margin-bottom: 20px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 p {
@@ -172,6 +172,7 @@ dt {
     font-weight: 700;
     font-size: 1.6rem;
     margin-bottom: 10px;
+    color: #5e437c;
 }
 
 dd {
@@ -213,10 +214,11 @@ dd {
     line-height: 1.8;
 }
 
-.button-cta {
+.button-cta, 
+.button-sm {
     border-radius: 25px;
     display: inline;
-    background-color: orangered;
+    background-color: rgb(255, 86, 24);
     color: #fff;
     font-size: 1.6rem;
     text-transform: uppercase;
@@ -224,7 +226,12 @@ dd {
     width: auto;
     float: left;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 400;
+}
+
+.button-sm {
+    margin-left: 20px;
+    font-size: 1.4rem;
 }
 
 #saiba-mais {
@@ -243,6 +250,7 @@ dd {
 #FAQ {
     background-color: #c6b8d6;
 }
+
 
 @media (max-width: 540px) {
     section nav,
