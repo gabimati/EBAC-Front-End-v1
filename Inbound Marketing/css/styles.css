@@ -10,24 +10,25 @@ body {
 
 .main-container {
     display: block;
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .container {
     display: block;
     float: left;
-    padding: 20px;
-    max-width: 30%;
+    padding: 30px;
     margin: 0 auto;
     max-width: 1198px;
+    width: 98%;
 }
 
 header {
     background: #fff;
     display: block;
     float: left;
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
     border-bottom: 1px solid #254159;
 }
@@ -101,7 +102,7 @@ section {
     display: block;
     float: left;
     font-size: 1.5rem; /* equivalente a 15px */ 
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
 }
 
@@ -141,7 +142,7 @@ footer {
     background-color: #254159;  
     display: block;
     float: left;
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
 }
 
@@ -155,9 +156,82 @@ footer small {
     display: block;
 }
 
+dl {
+    margin: 20px 0;
+}
+
+dt {
+    font-family: 'Open sans';
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
 .cognito {
     height: 350px !important;
     overflow: hidden !important;
+}
+
+#banner {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+}
+
+.legenda-container {
+    width: 30vw;
+    float: right;
+    margin: 10vh 10vh 0 0;
+}
+
+.legenda {
+    background-color: rgba(255, 255, 255, .6);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+}
+
+.legenda h5,
+.legenda h4 {
+    color: #385874;
+    line-height: 1.5;
+}
+
+.button-cta {
+    border-radius: 25px;
+    display: inline;
+    background-color: orangered;
+    color: #fff;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    width: auto;
+    float: left;
+    text-decoration: none;
+    font-weight: 300;
+    float: right;
+}
+
+#saiba-mais {
+    background-color: #eaeef3;  
+    padding: 40px 0px;
+}
+
+#saiba-mais p,
+#saiba-mais img {
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
 }
 
 @media (max-width: 540px) {
