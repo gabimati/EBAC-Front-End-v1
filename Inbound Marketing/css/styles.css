@@ -30,31 +30,34 @@ header {
     float: left;
     padding: 20px 0;
     width: 100%;
-    border-bottom: 1px solid #254159;
+    border-bottom: 1px solid #78579f;
 }
 
 h1 {
-    font-size: 2.4rem;
-    color: #254159;
+    font-size: 2.1rem;
+    color: #78579f;
     margin-bottom: 20px;
+    line-height: 2;
 }
 
 h2 {
     font-size: 2rem;
-    color: #254159;
+    color: #0b0b0b;
     margin-bottom: 20px;
+    line-height: 2;
+
 }
 
 h3 {
     font-size: 1.8rem;
-    color: #254159;
+    color: #78579f;
     margin-bottom: 20px;
     padding-top: 10px;
 }
 
 p {
-    margin-bottom: 10px;
-    line-height: 1.4;
+    margin-bottom: 15px;
+    line-height: 1.8;
     color: #333;
 }
 
@@ -68,11 +71,11 @@ article {
 }
 
 form, .contain {
-    background-color: #c6b8d6;
+    background-color: #fff;
 }
 
 #tenho-interesse {
-    background-color: #c6b8d6;
+    background-color: #fff;
     width: 100%;
 }
 
@@ -80,12 +83,16 @@ form, .contain {
 .cognito.c-med .c-forms-form,
 .cognito.c-med .c-forms-form div,
 :root:root:root:root:root .cog-form__container {
-    background-color: #c6b8d6 !important;
+    background-color: #fff !important;
+    padding: 15px 5px 5px;
+    font-family: Open sans, sans-serif;
+    color: #78579f;
 }
 
 #tenho-interesse .cognito .c-forms-form .c-forms-form-title h2,
 #tenho-interesse .cognito label[for], .cognito input[type=radio], .cognito input[type=checkbox] {
     color: #78579f;
+    font-family: open sans, sans-serif;
 }
 
 ol {
@@ -139,7 +146,7 @@ section article {
 }
 
 footer {
-    background-color: #254159;  
+    background-color: #78579f;  
     display: block;
     float: left;
     padding: 20px 0;
@@ -197,13 +204,13 @@ dd {
     background-color: rgba(255, 255, 255, .6);
     padding: 20px;
     border-radius: 5px;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .legenda h5,
 .legenda h4 {
-    color: #385874;
-    line-height: 1.5;
+    color: #78579f;
+    line-height: 1.8;
 }
 
 .button-cta {
@@ -211,9 +218,9 @@ dd {
     display: inline;
     background-color: orangered;
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
-    padding: 10px 20px;
+    padding: 12px 20px;
     width: auto;
     float: left;
     text-decoration: none;
@@ -221,7 +228,7 @@ dd {
 }
 
 #saiba-mais {
-    background-color: #eaeef3;  
+    background-color: #fff;  
     padding: 40px 0px;
 }
 
@@ -231,6 +238,10 @@ dd {
     display: block;
     float: left;
     padding: 20px;
+}
+
+#FAQ {
+    background-color: #c6b8d6;
 }
 
 @media (max-width: 540px) {
