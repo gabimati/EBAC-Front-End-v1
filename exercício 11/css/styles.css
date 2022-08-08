@@ -18,7 +18,6 @@ body {
     display: block;
     float: left;
     padding: 20px;
-    max-width: 30%;
     margin: 0 auto;
     max-width: 1198px;
 }
@@ -30,6 +29,7 @@ header {
     padding: 20px;
     width: 100%;
     border-bottom: 1px solid #254159;
+    overflow-x: hidden
 }
 
 h1 {
@@ -68,15 +68,15 @@ article {
 
 form, .contain {
     background-color: #c6b8d6;
-    align-content: center;
+    width: 100%;
 }
 
 #tenho-interesse {
     background-color: #c6b8d6;
     width: 100%;
     text-align: center;
-    align-items: center;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #tenho-interesse form,
@@ -149,6 +149,7 @@ footer {
     width: 100%;
     margin: 0, auto;
     text-align: center;
+    overflow: hidden;
 }
 
 footer p {
@@ -161,7 +162,6 @@ footer p {
 footer small {
     font-size: 80%;
     display: block;
-    text-align: center;
 }
 
 .cognito {
@@ -169,6 +169,7 @@ footer small {
     overflow: hidden !important;
     align-content: center;
     padding: 20px;
+    width: 90%;
 }
 
 @media (max-width: 540px) {
@@ -199,7 +200,7 @@ footer small {
     section, section nav,
     section article, form,
     .container, .cognito, 
-    footer, header{
+    footer, header, #tenho-interesse {
         width: 100%;
         min-width: 320px;
     }
