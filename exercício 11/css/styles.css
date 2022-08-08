@@ -68,11 +68,15 @@ article {
 
 form, .contain {
     background-color: #c6b8d6;
+    align-content: center;
 }
 
 #tenho-interesse {
     background-color: #c6b8d6;
     width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
 }
 
 #tenho-interesse form,
@@ -143,21 +147,28 @@ footer {
     float: left;
     padding: 20px;
     width: 100%;
+    margin: 0, auto;
+    text-align: center;
 }
 
 footer p {
     color: #ffffff;
     font-size: 1.4rem;
+    text-align: center;
+
 }
 
 footer small {
     font-size: 80%;
     display: block;
+    text-align: center;
 }
 
 .cognito {
     height: 350px !important;
     overflow: hidden !important;
+    align-content: center;
+    padding: 20px;
 }
 
 @media (max-width: 540px) {
