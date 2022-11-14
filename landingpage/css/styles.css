@@ -69,6 +69,7 @@ article {
 form, .contain {
     background-color: #c6b8d6;
     width: 100%;
+    text-align: center;
 }
 
 #tenho-interesse {
